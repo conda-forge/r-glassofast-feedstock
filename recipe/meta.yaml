@@ -1,4 +1,4 @@
-{% set version = '1.0' %}
+{% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/glassoFast_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/glassoFast/glassoFast_{{ version }}.tar.gz
-  sha256: fcd9b385524c2467eb9d605021d59764921e1fbef0d6685fcdf560032881f5e9
+  sha256: ffc340420d7693af4e361811fb8cf593083c2c341b07376b902533c373addb5b
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/

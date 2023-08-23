@@ -3,6 +3,7 @@ About r-glassofast-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-glassofast-feedstock/blob/main/LICENSE.txt)
 
+
 About r-glassofast
 ------------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=glassoFast
 Package license: GPL-3.0-only
 
 Summary: A fast and improved implementation of the graphical LASSO.
+
 About r-glassofast
 ------------------
 
